@@ -2,4 +2,6 @@
 !.gitignore
 
 !Dockerfile
+!.github/
+!.github/*
 !.github/**/*
