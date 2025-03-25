@@ -1,5 +1,5 @@
 FROM python:3.9.9
-RUN pip install -y openai-whisper
+RUN pip install openai-whisper
 RUN apt update -y & apt install ffmpeg -y
 
 # download the model
