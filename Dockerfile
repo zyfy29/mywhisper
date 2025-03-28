@@ -3,4 +3,4 @@ RUN pip install openai-whisper
 RUN apt update -y && apt install ffmpeg -y
 
 # download the model
-RUN python -c "import whisper; whisper.load_model('large-v3-turbo');"
+# RUN python -c "import whisper; whisper.load_model('large-v3-turbo');"
